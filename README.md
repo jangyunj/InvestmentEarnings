@@ -1,1 +1,1 @@
-Earnings and losses are calculated based on buying price and closing price
+Earnings and losses calculated based on buying price and closing price
