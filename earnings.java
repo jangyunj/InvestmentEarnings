@@ -5,8 +5,15 @@ public class earnings {
         System.out.println("How much can you spend?");
         Scanner scan = new Scanner(System.in);
         double total = scan.nextDouble();
-        double sum = 0;
-        int i = 0;
+        int day = 1;
+        double closingPrice;
+
+        while (true) {
+            system.out.println("Enter the closing price for day " + day + " (any negative value to leave: ");
+            closingPrice = scan.nextDouble();
+            if (closingPrice < 0.0)
+                break;
+        }
 
     }
 }
